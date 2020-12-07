@@ -113,7 +113,6 @@ function calculate(operand, operator) {
 }
 
 // node index.jsで実行。
-
 console.log(walkFormula("22+24+(12+2)")) // 60
 console.log(walkFormula("22+24+(12-2)+(3*4)")) // 68
 
